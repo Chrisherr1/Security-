@@ -1,0 +1,79 @@
+-------------------------------------------
+Encrypting Data
+-------------------------------------------
+    - To protect data on storage devices
+        -SSDs,HHDs, USB drive,cloud storage
+
+    - Via Full-disk and volume encryption
+        -Bitlocker,FileVault
+
+    - Via File Encryption
+        eg: EFS
+    
+    Database Encryption
+        - Ment to protect stored data in database
+
+        - Could use Transparent Encryption
+            - Encrypt all database information with a symmetric key
+        
+        - Could use Record-level encryption
+            - Encrypt individual columns
+            - Use separate symmetric keys for each columns
+        
+    Transport Encryption
+        - Protect data traversing the network
+        - encrypting in the application
+            -Http is used in browsers
+
+        VPN - Virutal private Network
+            - Encrypts all data tramsitteed over the network
+            - client-based VPN using SSL/ TLS
+            - Site to site VPN using IPsec
+    
+
+    Encryption algorithms
+        - Many ways to encrypt algorithms
+
+          DES. AES
+
+    Key Lengths
+        - Make keys long to prevent brute force
+        - A weak key is a weak key tho, include variety.
+    
+-----------------------------------
+Encryption Technologies
+-----------------------------------
+
+    TPM - Trusted Platform Module -
+        - hardware ment to give cryptographic capabilities to a 
+        computer
+        -Securely stores and manages key capabilities
+
+    HSM - hardware Security Module
+        - Used in large environments
+        - clusters, ment to store thousands of cryptographic keys
+        - Key backup on the hardware
+
+    Key Management System
+        - Used due to multitude of services (Cloud, on premise, ect)
+        - Helps to manage all keys from a centralized manager
+        - Often provided as 3rd party software
+        - All management from one console(creating keys for ssh,TLS/SSl)
+            - associating keys with specific users
+            - Rotating keys on regular intervals
+            - Log key use and important events
+    
+    Keeping Data private 
+        Challenges:
+            -Our data is located in many different places 
+            - Attackers always finding new Techniques
+            - OUr data is changing constantly
+
+        One Solution:
+            Secure Enclave
+                - Built into systems we use.
+                - Separate processor meant for the privacy of your data
+                
+                -A Protected area for our secrets and provides extensive features.
+                
+

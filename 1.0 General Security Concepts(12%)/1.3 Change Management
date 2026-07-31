@@ -1,0 +1,110 @@
+------------------------
+Change Management
+------------------------
+    Change is very frequent.
+
+    How to make a change:
+        Upgrade software,patch an application,
+        change firewall configuration, modify switch ports.
+
+    A formal Process for managing change
+        - To avoid downtime,confusion, and mistakes
+    
+    A typical approval process
+        - Complete the request forms
+        - Determine the purpose of the change
+        - schedule a change
+        - determine impact
+        - Analyze the risk associated with the change
+        - Get approval from change control Bollards
+        - get end user reviews
+    
+    Ownership
+        - An Individual or entity needs to make a change.
+            - They dont control the change control process
+            - They usually dont preform the actual change as well..
+
+            - They only manage the process
+                - ensures the process s followed and acceptable
+
+    Stakeholders(Not literally)
+        - The people being impacted by the change
+        - it can vary from individuals to the entire company being haulted
+    
+    Impact Analysis
+        - Determine the risk value
+        - risks can be minor or far reaching
+        - Determine the risk of not fixing
+            -Security vulnerability
+            -Application security
+    
+    Sandbox testing environment
+        - No connection to real world or production system
+        - Usually a duplicate to production, meant as a testing 
+        ground.
+
+    Backout plan
+        - Plan to revert any changes in case of worst.
+        - Sometimes its very hard to revert.
+
+    Maintenance Window
+        - The optimal time to make changes with minimal
+        user downtime.
+        - Keep in mind time of the year and how it effects 
+        change.
+    
+    Standard operating procedure
+        - Change management is critical and must be well
+        documented.
+        -Updated over time, bsed of company needs.
+    
+---------------------------
+Technical Change Management
+---------------------------
+    Change control in the perspective of the technician.
+    The Actually doing part.
+
+    Allow List  / Deny list
+        
+        - Lists that Restrict/Allow
+            AKA White lists vs Black lists
+            
+            Allow list - nothing runs unless it's approved
+                - Very restricted
+
+            Deny List - nothing on the 'bad list' can be executed
+                - Anti-virus, anti-malware
+
+        -A technician may need to update these lists as part of a 
+        change.
+
+    Restricted Activities
+        - The scope of a change is important.
+        - may need to revise what needs to change or if the scope 
+        needs to be increased.
+    
+    Downtime
+        - Services will eventually be unavailable
+        - if possible prevent downtime
+        - minimize any downtime events
+        - send alerts
+    Restarts
+        - Its very common to require a restart
+        - technical stuff: reboots,ect
+    Legacy applications
+        - Some applications were here before you arrived
+        - often no longer supported
+        - may not be able to be changed due to
+        lack of support
+    
+    Dependecies
+        -To complete objective A, you must Complete B
+        - Modifying one component may require changing or restarting 
+        other components
+
+    Documentation
+        -Documentation can become outdated if not properly handled
+
+    Version Control
+        - Track changes to a file or configuration data over time
+    

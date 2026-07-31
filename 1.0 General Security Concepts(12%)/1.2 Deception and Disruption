@@ -1,0 +1,26 @@
+----------------------------------------
+Deception and Disruption
+----------------------------------------
+Create deception/Disruption
+
+Honeypots - Virual Worlds to explore
+    -Attract the bad guys
+    -Trap them There
+    -'attackers' are usually bots
+    -Constant battle to make honeypots to face their bots
+
+Honeynets - a combination of honeypots to build a big network to trick better
+
+Honeyfiles:
+    -Attract the attackers with more honey
+    -fake files
+    -alert sent if the file is accessed
+
+Honey tokens
+    Track the malicious actors
+    -API credentials
+    -Fake email addresses
+        -Monitor to see who used it
+    -browser cookies
+    -web apge pixels
+

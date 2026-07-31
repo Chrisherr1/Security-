@@ -1,0 +1,64 @@
+Security Controls:
+
+    Assets are varied:
+        -Data,Physical Property,Computer Systems
+
+    Goal:
+        -Prevent Security Events
+        -Minimize the impact
+        -limit the damage
+
+Control Categories:
+
+        Technical controls:
+            -Controls Implemented using systems
+            -Operating system controls
+            -Firewalls, Anti Virus
+        
+        Managerial Controls:
+            -Administrative Controls
+                Associated with Security Design and Implementation
+            -Security Policies
+                Standard operating procedures
+
+        Operational Controls:
+            -Controls implementate by people instead of systems
+            -Security guards && awareness programs
+
+        Physical Controls:
+            -Limit Physical Access, Guard shack, Fence/locks, badge readers
+        
+Control Types: There can be different control types depending on the control category.
+
+        Preventive:
+            -Block  access to a resource(Physical or digitally)
+
+        Deterrent:
+            -Discourage an instrusion attempt
+            -Make an attacker think twice
+            -Does not directly prevent access
+
+        Detective:
+            -Identifiy and log an intrusion attempt
+            -Basically have logs that tell you when people do anything
+            -may not prevent access
+        
+        Corrective:
+            -Apply a control after an event has been detected
+            -Correct the problem(Backups,policies, call cops)
+
+        Compensating:
+            -Temporary
+            -Existing controls arent enough
+            -Prevent the exploitation of a weakness
+            (Require simultanouse guard duties, Generator used after power outage)
+
+        Directive:
+            -Weak
+            -Direct someone into security compliance
+            -'Do this please'
+
+
+
+
+        
