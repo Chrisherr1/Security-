@@ -67,6 +67,69 @@ Threat Vector
     --------------------------
         - Client based
             - Infected executable
-            - Known vulnerabilities 
+            - Known vulnerabilities
             - May require constant updates
         
+        - Agentless 
+            - No installed executable
+            - Comprosed software on the server would affect all users 
+            - Client runs a new instance each time
+
+    Unsupported systems Vectors
+    ---------------------------
+        -Patching is an important prevention tool
+        - Unsupported systems aren't patched
+        -outdated operating systems may not have ANY support.
+    
+        **Keep your inventory and records current to keep track of this **
+    
+    Unsecure Network Vectors
+    ------------------------
+        The network connects everything, attackers can see any non encrypted data
+    
+        - Wireless
+            - Outdated security protocols (WEP,WPA,WPA2)
+            - Open or rogue wireless networks
+        
+        - Wired
+            - Unsecure interfaces - 802.1x can be insecure
+        
+        - Bluetooth
+            - They can use it for reconnaissance
+            - Implement vulnerabilities
+        
+    Open Service ports
+    ------------------------
+        Most network-based services connect over TCP or UDP ports
+        
+        Every open port is an opportunity for the attacker.
+            -An application vulnerability or misconfiguration.
+        
+        Firewall rules must allow traffic to an open port.
+
+    Default Credentials
+    ------------------------
+        -Most devices have a default username and passwords
+        
+        The right credentials provide full control
+            - admin access
+        Very easy to find the defaults for access points or routers
+        www.routepasswords.com
+    
+    Supply chain vectors
+    ------------------------
+        Tamper with the underlying infrastructure
+
+        -Managed service providers(MSPs)
+            -Access many different customer networks from one location
+        -Gain access to a networking using a vendor
+            - Target credit card breach
+        - Suppliers
+            -counterfeit networking equipment
+            
+        
+
+            
+        
+
+

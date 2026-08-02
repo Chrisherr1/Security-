@@ -1,0 +1,103 @@
+------------------------
+Phishing
+------------------------
+    Social engineering with a touch of spoofing.
+
+    Often delivered by email,text, ect
+
+    Usually not the same as the original.
+
+    Business email compromise
+    ------------------------
+        - We trust email sources
+            - Attackers take advantage of this
+
+            Spoofed email addresses - Uses emails that look like a trusted one
+
+            Financial fraud - sends emails with updated banking information
+
+            The receipients needs to click the links
+
+    Tricks and Misdirection
+    ------------------------
+        Digital Slight of hand to fool us.
+
+        Typosquatting - A type of URl hijacking
+
+        Pretexting - Lying to get information
+
+    Phishing with different bait
+    ------------------------
+        Vishing - over the phone (spoof caller id)
+
+        Smishing - SMS Phising(Trying to scam)
+
+        Variations on theme - fake check scam phone verification,
+        BOSS/CEo scam, advance-fee scam 
+
+        etc etc think SCAMMERS!!!
+
+------------------------
+Impersonation
+------------------------
+    Attackers pretend to be someone they aren't
+    They try to use details to gain your trust
+    Throw tons of tehcnical details around to confuse you
+    
+    The Pretext
+    ------------------------
+        - Before the attack, they state the stage.
+
+    
+    Eliciting information
+    ------------------------
+        Tries to extract information from the victim
+        Often seen with vishing(voice vishing)
+    
+    Identity fraud
+    ------------------------
+        Your identity may be used by others, so keep your information safe.
+
+        These can all be don in your name!!
+
+        Credit card fraud 
+        Bank Fraud 
+        Loan Fraud 
+        Goverment benefits fraud
+
+    Protecting against Impersonation
+    --------------------------------
+        - Never disclose information
+        - Don't disclose personal details
+        - Always verify before revealing information(Call 3rd party)
+        - verification should be encouraged when giving information
+
+BONUS!
+------------------------
+Watering Hole Attack
+------------------------
+    If attacker cant get in they'll try to poision a website or software your organization 
+    uses and will wait until you you use it to breach into your network.
+
+    It's not limited to software/website though they can try to hack into a local coffee shop if they know 
+    you'll be there and try to get in through that means.
+
+    The point is They preemptively will try to hack something waiting for you to get caught there.
+    
+    Prevention
+    ------------------------
+        -Defense-in-depth
+            - Layered defence
+        - Firewalls and IPS
+            - Stop the network traffic before things get based
+        - Anti-virus  / Anti-malware signiture updates
+
+------------------------------------------------
+Other Social Engineering  Attacks
+------------------------------------------------
+    Misinformation/disinformation
+        - create confusion to divide
+    
+    Brand Impersonation
+        - Pretending to be a well known brand to
+            trick and exploit
