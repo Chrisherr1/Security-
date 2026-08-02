@@ -1,0 +1,122 @@
+------------------------------
+Memory Injections
+------------------------------
+
+    Finding Malware
+        - Malware runs in memory
+        - We can find it using memory forensics
+                - Memory contains running processes
+    
+    Memory Injection
+        - Adding code into the memory of an existing process
+        - Get access to the data in that process
+            - Can lead to privilege escalation
+    
+        Most common form:
+            DLL Injection -
+                A windows library containing code and data, many apps use this library
+
+                - Attackers inject a path to a malicious DLL
+                    - When the app calls the path it gets injected by the DLL
+
+                - One of the most popular, Pretty easy
+
+------------------------------
+Buffer Overflows
+------------------------------
+    The main jist is that it's overwritting a buffer of memory,and causes it to 
+    spill over into other memory areas
+
+    - Developers need to preform bounds checking, as the attackers spend alot of 
+    time trying to find openings.
+
+    - Not a simple exploit, takes time to avoid crashing the application
+
+    - Really useful buffer overflow is repeatable, so once you're compromised 
+    you're cooked.
+
+
+------------------------------
+Race Conditions
+------------------------------
+    When two events happen nearly at the same time, and the application
+    has no idea that they might be happening simultaneously.
+    
+    - Devs commonly check, this can be bad if not planned for.
+    - TOCTOU - Time-of-check to time-of-use attack
+            App checks the system to retrieve information
+            then after it may do a function with that value.
+
+            But.. something may occur between when you grab that value and
+            when you acutally use it.
+
+            If you don't account for something between the check and the useage it 
+            might be a place where we can abuse race condition.
+    
+--------------------------------
+Software Updates
+--------------------------------
+    - Always keep your operating system and applications updated
+        - Updates often include bug fixes and security patches
+    
+    - Not every update is equally secure
+        - Attackers could have compromised the update
+
+    - Follow best practices
+        1. You should have a backup
+        2. The source install should be from a trusted sources
+        3. HAVE A BACKUP
+    
+    Downloading and updating
+        - confirm the source, dont use weird websites
+        - Visit the developer's site directly
+        - Many Operating system will only allow signed apps, This ensures the app is trusted
+    
+    Automatic updates
+        -Some applications will update Automatically
+            - automatic verification
+        - VERY HIGH TRUST - Comes directly from the developer
+
+        - NOT 100% though.. the well can be poisoned by an attacker, but if thats the case
+        its effecting ALL USERS.
+    
+------------------------------
+Operating Systems
+------------------------------
+    - Pretty foundational, Every system has one
+    - Vulnerabilities are there you just need to find them.
+    - Hence the CONSTANT UPDATES :~:
+
+    Best Practices
+     ------------------------------
+        - BRO UPDATE YOUR CRAP
+        - Always test before deployment
+        - Save all data before updates
+        - HAVE BACKUPS PLEASE GOD !!!!!! 
+            - YOu really dont want to be responsible for losing everything.
+
+------------------------------
+SQL Injections
+------------------------------
+    Code Injections in GENERAL
+        - Its basically adding your own code into a data stream
+        - Mostly due to bad programming
+        - So many types (HTML,SQl,XML,LDAP,etc)
+
+    SQL Injections
+    ------------------------------
+        Its Injecting SQL code into a application accepting input.
+
+        Applications should not be allowing this..
+
+        Can be often executed in the web browser if the client isn't sanitizing the frontend
+            - Often you can inject in form or fields.
+
+        Building a SQL injection
+        ------------------------------
+            SELECT * FROM users WHERE name = '" + userName + "'";
+
+            You could add your own completion via ' OR '1'='1
+            
+                This could help you grab stuff you wouldn't otherise be able to grab from the database.
+
