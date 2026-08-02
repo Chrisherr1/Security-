@@ -1,0 +1,69 @@
+---------------------
+Threat Actors
+---------------------
+    - The entity responsible for an event that has an impact on the safety of another entity
+    - Threat actor attributes
+        - characteristics of the attacker
+    - Useful to catagorize the motivation
+
+    Attributes of threat actors
+        Internal/ external
+            - The attacker is inside the house
+            - They're outside and trying to get in
+        Resources/ funding
+            - No money
+            - Extensive funding
+        Level of sophistication/ capability
+            - blindingly runs scripts or autmated vulnerability scans
+            -can write their own attack malware and scripts
+        
+    Motivations of threat actors
+        - the purpose of the attack
+
+        Motivations can be selfish or selfless, helpful to know what they want from this to know how to proceed.
+
+    Nation States
+        - External entity
+            -Goverment and national security 
+            -Many possible Motivations 
+                - Data exfil,philosocial, revenge,war,exactly
+            -Constant attacks,massive resources 
+                -Called Advanced persistent threat 
+            Highest sophistication
+                -Military control,utilities, financial control
+    
+    Unskilled attackers
+        - Runs premade scripts without any knowledge of what's really happening. 
+        - Often motivated by the hunt
+        - Can be internal or external
+        - not very sophisticated
+        - Not formal funding
+
+    Hacktivist
+        - A hacker with a purpose
+            -Motivated by philosophy,revenge, disrupption,ect.
+        Often an external entity
+            - Could potientially infiltrate to be be an insider threat
+        
+        Can be remarkably smart
+            - Very specific hacks
+                -DoS,wweb site defacing,
+        Funding may be limited
+
+    Insider Threat 
+        - Motivated by revenge or financial gain
+        - extensive resources 
+        - An internal entity 
+        - medium level of sophistication
+            - real knowledge is knowing where the data might be 
+    
+    Organized crime 
+        -Professional criminals
+        -Very Sophisicated 
+        - Cone person hacks, one person manages exploits, another person sells the data, another handles customer support 
+    
+    Shadow IT
+        - Department working around the rules of the It department
+        - Limited budget
+        - medium sophisticated
+            - May not have It training
