@@ -1,0 +1,74 @@
+-----------------------------
+Virtualization Vulnerabilities
+------------------------------
+
+    Virtualization security
+    
+        - Quantity of resources vary between VMs
+            - CPU,memory,storage
+        - Many similarities to physical machines
+            - Complexity adds opportunity for attackers
+            
+        - Virtualization Vulnerabilities
+            - Local privilege escalations
+            - Command Injection
+            - Information Disclosure
+
+        -VM escape protections
+            - vms for the most part are self contained, meaning they have their own stuff and are 
+            separate from other vms on the same hypervisor
+            - There are ways though to escape from the vm with the host operating system or hardware though,
+            and if you do you'll have alot of control of the host and control of other VMs
+        
+        - Resource resuse
+
+            - The hypervisor manages the relationship between physical and virtual resources. 
+                - available ram,storage space,CPU availability,etc
+
+            - These resources can be reused between VMs
+                - hypervisor host might have 4gbs of ram total
+                    - can support 3 vms with 2gbs of ream each 
+                        - Ram is shared between the vms
+
+                    - Data can inadvertently be shared between VMs
+                        - security patches can mitigate the risk
+        
+-----------------------------
+Cloud-Specific Vulnerabilities
+------------------------------
+    
+    Cloud Security
+    ------------------------------
+        Cloud is very common.
+
+        We are putting sensitive data in the cloud though.We're not even 
+        using the right protections.
+
+        Simple best-practices aren't being used.
+
+        - Attack the service
+        ------------------------------
+            - Dos(denial of service)
+                - tries to crash the server
+            - Authentication bypass
+                - tries to take advantage of weak or faulty authentication
+        
+            - Directory traversal
+                - faulty configuration put data at risk
+
+            -remote code execution
+                - tries to take control of system
+
+        -Attack the application
+        ------------------------------
+            - Web application attack have increased
+
+            - Cross-site scripting
+                - takes advantage of poor input validation
+                - out of bounds write
+                    - write to unauthorioried memory areas
+                    - can cause data corruption,crashing,code execution
+            
+            - SQL injection
+                - Get direct access to the database
+                    

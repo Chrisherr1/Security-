@@ -1,0 +1,41 @@
+------------------------------
+Supply Chain Vulnerabilities
+------------------------------
+
+    Supply Chain risk
+
+        The chain from when your products get made from all the way to
+        product delivery. 
+
+        - Attacker can infect any step along the way.
+        - People trust their suppliers.
+        - One exploit can infect the entire chain.
+
+        - Service Providers
+            - You can always control a service provider
+            - many Types
+                network,utility,offic cleaning,payroll,accounting,cloud services,system admin
+
+            - consider ongoing security audits of all providers
+                - should be included with the contract
+            
+        - Hardware providers
+            - Can you trust your new device? (server,router,switch)
+            - use a small supplier base
+                - tight control of vendors
+            - strict controls over policies and procedures
+            - Security should be part of the overall design
+
+            -cisco or not cisco?
+                - all traffic goes though SWITCHES and ROUTERS
+                - sometimes are counterfiet so double check its acutally 
+                legit
+        
+        - Software providers
+            - initial installation
+                - Digital signatures during installation
+            - updates and patches
+                - automatic so make sure its legit 
+            - Open source is not immune
+                - Sometimes compromised 
+            

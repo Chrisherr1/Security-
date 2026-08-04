@@ -120,3 +120,76 @@ SQL Injections
             
                 This could help you grab stuff you wouldn't otherise be able to grab from the database.
 
+-------------------------------
+Cross-site Scripting Injection
+-------------------------------
+
+    XXS
+        originally called cross-site because of browser security flaws
+            - information from one site could be shared with another.
+        One of the most common web app Vulnerabilities
+            -takes advantage of the trust a user has for a site.
+        
+        XSS commonly use Javascript
+
+    Eg: High level
+        
+        1 Option
+            1. Attacker sends a link containing a malicious script to a victim
+                via email or text,etc
+            2. Victim will click the link and visit a legitimate site
+            
+            3. The legitimate site loads in the victims browser,
+            malicious script is loaded along with it.
+
+            4. Usually the user can't see it run, but..
+            behind the scenes the script might have sent the
+            victm's data (session cookies,etc) to attacker.
+
+    Types:
+        Non-persistent(reflected) XSS attack
+        
+            - Web site allows scripts to run in user input.
+
+            - An attacker could take advantage of this by sending a email link that runs a script that 
+            in addition to the correct redirect will run a bit of code that sends credentials to the attacker.
+
+            - The script is often embedded into the URL link and executes in the victim's browser.
+
+            - Attacker uses credentails/session IDs/cookies to steal victim's information without their knowledge
+
+            - very sneaky
+
+        eg: In the userput we would add:
+
+             "><script>alert("Your session information" + document.cookie)</script>
+
+             ** NOTE ** within the URL link theres usually a parameter we would add this to within the URL
+             to make it run as they click it, if you just add it to the browser it only runs on your system lol
+
+            Eg: https://security.com/index.html?usersearch="><script>alert("Your session information" + document.cookie)</script>
+
+            This would be a good payload to give somone!
+
+        Persistent(stored) XSS attack
+            
+            - Web sites dont properly sanitize userinput causing javascript to be able to slip through,
+            once slipped through any time the database needs that information it will try to grab that data and it
+            will be the malicious script and if it is allowed to run on the browser it will run.
+
+            This effects Every user, It really just depends on whether they end up grabbing the data.
+
+            a Forum would grab users posts and if one of those posts have malicious js and is allowed to run, any user
+            who runs that forum will get effected, becuase of the nature of grabbing stuff off the database.
+        
+
+    Protecting against XSS as a user
+
+        - Be careful when clicking untrusted links.
+        - Consider disabling javascript
+            - meh
+        -keep your browser and applications updated
+            - Avoid the nasty browser Vulnerabilities
+        
+        -as a dev
+            - Validate input and dont allow users to add scripts to an input field
