@@ -1,0 +1,35 @@
+--------------------------------
+Replay Attack
+--------------------------------
+
+    -Useful information is transmitted over the network
+
+    - Need access to the raw network data
+        - network tap,ARP poisoning
+            malware on the victim computer
+    
+    The gathered information may help the attacker
+        - replay the data to appear as someone else
+    This is not a on-path attack 
+        - Doesn't require the original work station
+
+    
+    Browser Cookies and Session IDs
+    --------------------------------
+        - Cookies
+            - used for tracking,personalization, session management
+            - could be considered a privacy risk
+            - SessionID are often stored in the cookie
+    
+        - Header manipulation 
+            - information gathering 
+            - exploits
+            - Modify headers 
+            - modify cookies
+    
+    Prevent session hijacking
+    -------------------------
+        - encrypt end-to-end
+            - They cant capture your session Id if they cannot see it
+            - run HTTPS
+        

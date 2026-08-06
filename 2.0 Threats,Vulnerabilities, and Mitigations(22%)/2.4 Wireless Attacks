@@ -1,0 +1,45 @@
+-----------------
+Wireless Attacks
+-----------------
+
+    Wireless Deauthentication Attacks
+        - Disconnects a person from the wifi
+    
+    Protecting against deauth Attacks
+    --------------------------------
+        - IEEE has already addressd the problem
+            - updates included with 802.11ac
+            - some important management frames are encrypted 
+                - Disassociate,deauthenticate,channel switch announcements,
+                have been hidden via encryption.
+            - Not everything is encrypted though..
+                    beacons,probes,authenticaition,
+    
+    Radio frequency (RF) jamming
+    -------------------------
+        -type of DoS that effects all people
+        
+        - transmit interfering wireless signal
+            -Decrease the signal-to-noise ratio at the receiving device
+            - the receiving device can't hear the good signal
+
+        - Sometimes not intentional
+            - interference,not jamming
+            - microwave oven,florecent lights
+
+        - Jamming is intentional though..
+
+        Ways to jam:
+            - sending legitimate constant,random bits through the network
+            - Data send at random times - random data and legitimate frames
+            - reactive jammming - only when somone else tries to communicate
+
+            - needs to be somewhere close
+
+            - time to go fox hunting
+                - directional antenna
+
+
+                
+        
+    
