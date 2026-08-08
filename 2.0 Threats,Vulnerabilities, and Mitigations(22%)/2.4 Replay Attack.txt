@@ -21,11 +21,11 @@ Replay Attack
             - could be considered a privacy risk
             - SessionID are often stored in the cookie
     
-        - Header manipulation 
-            - information gathering 
+        - Header manipulation
+            - information gathering
             - exploits
-            - Modify headers 
-            - modify cookies
+            - Modify headers
+            - modify Cookies
     
     Prevent session hijacking
     -------------------------

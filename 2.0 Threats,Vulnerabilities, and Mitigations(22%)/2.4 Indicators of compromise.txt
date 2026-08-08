@@ -1,0 +1,81 @@
+-----------------------
+Indicators of compromise
+-----------------------
+
+    An event that indicates an intrusion
+        
+    indicators
+    ----------
+        - unusal amout of network activity
+        - change to file hash values
+        - irregular international traffic
+        - changes to DNS data
+        - Uncommon login patterns
+        - Spikes of read requests to certain files
+    
+        Account lockout
+        ----------------
+            - credentials are not working
+            - Exceeding login attempts
+                - Account is auto locked
+            - Account was administratively disabled
+                - This would be a larger concern
+            - This may be part of a larger Plan
+
+        Concurrent session usage
+        ------------------------
+            - Its challenging to be two places at one time
+            - multiple logins from multiple locations
+            - can be difficult to track down
+        
+        blocked content
+        ----------------
+            - An attacker wants to stay as long as possible
+                - Attacker will try to keep the doors and windows open
+
+            block content
+                - Auto-update connections
+                - Links to Security patches
+                - Third party anti-malware sites
+                - Removal tools
+            
+        Impossible travel
+        ----------------
+            - Authentication logcs can be telling
+                - log on log Off
+            - Logins from other places in the world could be an indicator of 
+            a wierd things
+        
+        Resource consumption
+        ----------------
+            - Every attacker's action can bear load which can tell if the attacker
+            is on it.
+
+        Resource inaccessibility
+        ------------------------
+            - The server is down 
+                - attacker could accidently crash the site
+            - network disruption
+            - server outage 
+                -exploit gone wrong
+            -encrypted data
+                - potential ransomware
+        
+        Out-of-cycle logging
+        --------------------
+            - weird log information in a weird time could be an indicator
+
+        Missing logs
+        ----------------
+            - Logs might be missing, which could be an indicator
+        
+        publish/documented
+        ----------------
+            - the entire attack and data exfilteration may go unoticed
+            - company data may be published online
+            - might be in conjunction with ransomware
+
+        
+
+        
+        

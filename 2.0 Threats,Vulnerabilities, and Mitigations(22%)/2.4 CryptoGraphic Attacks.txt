@@ -1,0 +1,72 @@
+-----------------------------------
+Cryptographic Attacks
+-----------------------------------
+
+    Let's say we sent out data, and you encrypt that data, how would you
+    know it's secure?
+
+    - The attacker does'nt have the combination(Key)
+        - So they break the safe (Cryptography)
+    
+    - We tend to make the Cryptography public to see vulnerabilities,
+    but that also means that attackers can too.
+
+    - Implementation of cryptography is often a weak point
+
+    Birthday Attack
+    ---------------
+        - Metaphor : In a class room of 23 students, what is the chance of two students sharing a birthday?
+                        answer: about 50%
+                        - for a class of 30, the chance is 70%
+
+        IN the digital world, this is a hash collision.
+            - A hash collision is the same hash value for two different plaintexts.
+            - Find a collision through brute force
+
+        - The attacker will generate multiple versions of plaintext to match the hashes
+            - Protect yourself with a large hash output size.
+    
+    Collisions
+    ---------------
+
+        - Hash digests are suppose to unique
+            - different input data should not create the same hash
+        
+        -MD5 hash
+            - researchers found collisions
+            - They were able to make a cert with a cert authority signing without that cert authority signing it.
+
+    
+    Downgrade attack
+     ---------------
+        - Instead of using perfectly good encryption,use something not so generate
+
+        - Force the systems to Downgrade their security.
+
+        - SSL Stripping
+            - COmbines an on-path attack with a downgrade attack
+            - difficult to implement but is very powerful
+            - attacker might sit in between
+            - victim's browser page isnt encrypted
+            - strips the S away from HTTPS
+
+            how it works:
+
+            Basically, attacker must be already intercepting the user's web traffic. When te user tries to vist a 
+            http site the site itself will try to redirect him to the https version at which point the attacker
+            can intercept the request and put in their own fake version of the website to trick the user to
+            give their information through the login etc. 
+
+            things that have to be true:
+                You have to try to make the user click on a http version of a website(maybe through vishing?)
+
+                YOu have to make a fake website a user would fall for to add their login details.
+
+                YOu have to have a server running to grab that data being sent, via your computer
+
+                YOu have to somehow be a man in the middle already.
+
+                
+
+
+        

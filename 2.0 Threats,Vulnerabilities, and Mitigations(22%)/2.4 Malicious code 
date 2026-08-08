@@ -1,0 +1,25 @@
+----------------------------------
+Exploiting a Vulnerability
+-----------------------------------
+
+    An Attacker can use many techniques
+        - Social engineering
+        - default credentials
+        - misconfigurations
+    
+    - These attacks aren't technical skills 
+    - There are still ways to get into a well-secured system
+        - Exploit with malicious code 
+    
+    Malicious code
+        -types of malicious code are varied and many
+        - different forms 
+            - executables,scripts,macro viruses,worms,Trojan horse,ect.
+
+        - Protection come from many different sources
+            - Anti-malware
+            - Firewall
+            - Conious updates and patches
+            - Secure computing habits
+
+        

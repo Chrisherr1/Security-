@@ -17,10 +17,10 @@ Denial of Service
     Distributed denial of service(DDoS)
     --------------------------------
         - launch an army of computers to break down a service
-            - Use all the badwidth or reources
+            - Use all the bandwidth or resources
         - This is why they have botnets
             - Thousands to millions of computers at your command
-        - typically a Symetric attack
+        - typically a Symmetric attack
 
     DDoS reflection and amplification
     --------------------------------
