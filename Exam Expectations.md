@@ -1,0 +1,18 @@
+```text
+Released November 7, 2023
+
+90mins
+
+Maximum of 90 Questions (Multiple Choice + Matching/Sorting/drag-n-drop)
+
+Passing Score: 750 on a scale of 100-900
+```
+
+---
+
+## Two Methods for taking exams:
+
+```text
+- Exam center
+- At Home
+```
