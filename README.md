@@ -55,6 +55,8 @@ More in [Exam Expectations](Exam%20Expectations.md).
 - [4.1 Security Techniques](4.0%20Security%20Operations%2828%25%29/4.1.md): baselines, hardening targets, wireless and mobile security, application security
 - [4.2 Asset Management](4.0%20Security%20Operations%2828%25%29/4.2.md)
 - [4.3 Vulnerability Management](4.0%20Security%20Operations%2828%25%29/4.3.md): vulnerability scanning, threat intelligence, penetration testing
+- [4.4 Security Monitoring](4.0%20Security%20Operations%2828%25%29/4.4.md): Security Monitoring Concepts
+- [4.5 Enterpise Security](4.0%20Security%20Operations%2828%25%29/4.5.md): Enterprise security Concepts
 
 ### 5.0 Security Program Management and Oversight (20%)
 
