@@ -58,6 +58,7 @@ More in [Exam Expectations](Exam%20Expectations.md).
 - [4.4 Security Monitoring](4.0%20Security%20Operations%2828%25%29/4.4.md): monitoring, log aggregation, alerting, SCAP, SIEM, SNMP, NetFlow
 - [4.5 Enterprise Security](4.0%20Security%20Operations%2828%25%29/4.5.md): firewalls, web filtering, operating system security, secure protocols, email security, DLP, endpoint security
 - [4.6 Identity and Access Management](4.0%20Security%20Operations%2828%25%29/4.6.md): provisioning, SSO, LDAP, SAML, OAuth, federation, access control models, MFA, password security
+- [4.7 Scripting and Automation](4.0%20Security%20Operations%2828%25%29/4.7.md): benefits, use cases (provisioning, guardrails, ticketing, APIs), and considerations
 
 ### 5.0 Security Program Management and Oversight (20%)
 
