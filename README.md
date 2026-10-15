@@ -25,7 +25,7 @@ More in [Exam Expectations](Exam%20Expectations.md).
 | 1.0 General Security Concepts | 12% | ✅ Notes |
 | 2.0 Threats, Vulnerabilities, and Mitigations | 22% | ✅ Notes |
 | 3.0 Security Architecture | 18% | ⬜ Not started |
-| 4.0 Security Operations | 28% | 🟡 In progress |
+| 4.0 Security Operations | 28% | ✅ Notes |
 | 5.0 Security Program Management and Oversight | 20% | ✅ Notes |
 
 ---
@@ -59,6 +59,8 @@ More in [Exam Expectations](Exam%20Expectations.md).
 - [4.5 Enterprise Security](4.0%20Security%20Operations%2828%25%29/4.5.md): firewalls, web filtering, operating system security, secure protocols, email security, DLP, endpoint security
 - [4.6 Identity and Access Management](4.0%20Security%20Operations%2828%25%29/4.6.md): provisioning, SSO, LDAP, SAML, OAuth, federation, access control models, MFA, password security
 - [4.7 Scripting and Automation](4.0%20Security%20Operations%2828%25%29/4.7.md): benefits, use cases (provisioning, guardrails, ticketing, APIs), and considerations
+- [4.8 Incident Response](4.0%20Security%20Operations%2828%25%29/4.8.md): NIST SP 800-61 lifecycle, preparation, containment, recovery, tabletop exercises, simulations, root cause analysis, threat hunting, digital forensics
+- [4.9 Log Data](4.0%20Security%20Operations%2828%25%29/4.9.md): firewall, application, endpoint, OS, IPS/IDS and network logs, metadata, vulnerability scans, reports, dashboards, packet captures
 
 ### 5.0 Security Program Management and Oversight (20%)
 
